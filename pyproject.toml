@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cardio-symptom-lexicon"
+version = "0.1.0"
+description = "Patient-language cardiovascular symptom lexicon (English and German) with a baseline matcher"
+readme = "README.md"
+license = "Apache-2.0"
+requires-python = ">=3.10"
+authors = [{ name = "ChatDok GmbH", email = "hello@chatdok.com" }]
+keywords = ["cardiology", "clinical-nlp", "symptoms", "triage", "german"]
+
+[project.urls]
+Homepage = "https://github.com/chatdok-health/cardio-symptom-lexicon"
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[tool.setuptools]
+packages = ["cardio_symptom_lexicon"]
+
+[tool.setuptools.package-data]
+cardio_symptom_lexicon = ["lexicon.json"]

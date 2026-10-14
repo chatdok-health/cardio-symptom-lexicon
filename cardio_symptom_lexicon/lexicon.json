@@ -1,0 +1,209 @@
+{
+  "version": "0.1.0",
+  "languages": ["en", "de"],
+  "urgency_levels": {
+    "emergency": "Call emergency services now (112 in the EU, 999 in the UK, 911 in the US).",
+    "same_day": "Contact the care team or a doctor today.",
+    "routine": "Mention at the next contact with the care team, or sooner if it is new or getting worse."
+  },
+  "concepts": [
+    {
+      "id": "chest_pain",
+      "label": {"en": "Chest pain or pressure", "de": "Brustschmerz oder Druck auf der Brust"},
+      "category": "pain",
+      "urgency": "emergency",
+      "note": "New, severe or lasting chest pain or pressure can be a sign of a heart attack.",
+      "phrases": {
+        "en": ["chest pain", "chest pains", "pain in my chest", "chest tightness", "tightness in my chest", "tight chest", "chest pressure", "pressure on my chest", "pressure in my chest", "heavy feeling in my chest", "squeezing in my chest", "my chest hurts"],
+        "de": ["Brustschmerzen", "Brustschmerz", "Schmerzen in der Brust", "Schmerz in der Brust", "Engegefühl in der Brust", "Brustenge", "Druck auf der Brust", "Druckgefühl in der Brust", "Stechen in der Brust", "Brust tut weh"]
+      }
+    },
+    {
+      "id": "dyspnea_at_rest",
+      "label": {"en": "Breathlessness at rest", "de": "Atemnot in Ruhe"},
+      "category": "breathing",
+      "urgency": "emergency",
+      "note": "Severe breathlessness at rest needs emergency assessment.",
+      "phrases": {
+        "en": ["breathless at rest", "short of breath at rest", "short of breath even when resting", "breathless even when resting", "cannot breathe even sitting still", "struggling to breathe sitting down", "cannot breathe properly at rest"],
+        "de": ["Atemnot in Ruhe", "Luftnot in Ruhe", "auch in Ruhe keine Luft", "selbst im Sitzen keine Luft", "bekomme im Sitzen keine Luft"]
+      }
+    },
+    {
+      "id": "dyspnea",
+      "label": {"en": "Shortness of breath", "de": "Kurzatmigkeit"},
+      "category": "breathing",
+      "urgency": "routine",
+      "note": "Breathlessness on exertion is common in heart failure. Sudden or worsening breathlessness needs prompt assessment.",
+      "phrases": {
+        "en": ["short of breath", "shortness of breath", "breathless", "breathlessness", "out of breath", "cannot catch my breath", "hard to breathe", "difficulty breathing", "trouble breathing", "struggling to breathe"],
+        "de": ["Atemnot", "Luftnot", "kurzatmig", "Kurzatmigkeit", "keine Luft", "schlecht Luft", "schwer atmen", "Probleme beim Atmen", "Atembeschwerden"]
+      }
+    },
+    {
+      "id": "orthopnea",
+      "label": {"en": "Breathlessness when lying flat", "de": "Atemnot im Liegen"},
+      "category": "breathing",
+      "urgency": "same_day",
+      "note": "Needing more pillows to breathe at night can be a sign that heart failure is getting worse.",
+      "phrases": {
+        "en": ["cannot lie flat", "breathless lying down", "short of breath lying down", "short of breath when I lie down", "need more pillows", "need extra pillows", "sleep sitting up", "sleeping in a chair"],
+        "de": ["Atemnot im Liegen", "kann nicht flach liegen", "kann nicht mehr flach liegen", "brauche mehr Kissen", "brauche mehrere Kissen", "schlafe im Sitzen", "schlafe im Sessel"]
+      }
+    },
+    {
+      "id": "paroxysmal_nocturnal_dyspnea",
+      "label": {"en": "Waking at night breathless", "de": "Nächtliche Atemnot"},
+      "category": "breathing",
+      "urgency": "same_day",
+      "note": "Waking up gasping for air can be a sign that heart failure is getting worse.",
+      "phrases": {
+        "en": ["wake up gasping", "woke up gasping", "wake up short of breath", "woke up short of breath", "wake up breathless", "woke up breathless", "wake up at night unable to breathe"],
+        "de": ["nachts mit Atemnot aufgewacht", "wache nachts mit Atemnot auf", "nachts nach Luft schnappend aufgewacht", "wache nachts auf und bekomme keine Luft", "nächtliche Atemnot"]
+      }
+    },
+    {
+      "id": "pink_frothy_sputum",
+      "label": {"en": "Pink, frothy sputum", "de": "Rosa, schaumiger Auswurf"},
+      "category": "breathing",
+      "urgency": "emergency",
+      "note": "Coughing up pink, frothy sputum can be a sign of fluid on the lungs.",
+      "phrases": {
+        "en": ["pink frothy sputum", "pink frothy spit", "coughing up pink froth", "coughing up pink foam", "pink foamy"],
+        "de": ["rosa schaumiger Auswurf", "rosa Schaum", "rosafarbener Auswurf", "schaumiger rosa Auswurf"]
+      }
+    },
+    {
+      "id": "nocturnal_cough",
+      "label": {"en": "Cough at night or when lying down", "de": "Husten nachts oder im Liegen"},
+      "category": "breathing",
+      "urgency": "routine",
+      "note": "A new cough when lying down can be related to fluid build-up.",
+      "phrases": {
+        "en": ["cough at night", "coughing at night", "cough when I lie down", "coughing when lying down", "night cough"],
+        "de": ["Husten in der Nacht", "nachts Husten", "huste nachts", "Husten im Liegen", "Reizhusten nachts"]
+      }
+    },
+    {
+      "id": "rapid_weight_gain",
+      "label": {"en": "Rapid weight gain", "de": "Schnelle Gewichtszunahme"},
+      "category": "fluid",
+      "urgency": "same_day",
+      "note": "A gain of more than 2 kg in 3 days is a commonly used warning threshold in heart failure. Patients should follow the threshold in their own care plan.",
+      "phrases": {
+        "en": ["gained weight quickly", "sudden weight gain", "weight went up suddenly", "put on 2 kilos", "put on two kilos", "gained 2 kg", "gained two kilos", "weight is up 2 kg"],
+        "de": ["schnell zugenommen", "plötzlich zugenommen", "plötzliche Gewichtszunahme", "Gewicht ist plötzlich gestiegen", "2 Kilo zugenommen", "zwei Kilo zugenommen", "2 kg zugenommen"]
+      }
+    },
+    {
+      "id": "edema",
+      "label": {"en": "Swelling of the legs, ankles or feet", "de": "Schwellung an Beinen, Knöcheln oder Füßen"},
+      "category": "fluid",
+      "urgency": "routine",
+      "note": "New or worsening swelling should be reported to the care team.",
+      "phrases": {
+        "en": ["swollen ankles", "swollen legs", "swollen feet", "swelling in my legs", "swelling in my ankles", "swelling in my feet", "puffy ankles", "fluid in my legs", "my shoes feel tight"],
+        "de": ["geschwollene Knöchel", "geschwollene Beine", "geschwollene Füße", "Schwellung an den Beinen", "Schwellung an den Füßen", "Wasser in den Beinen", "Wassereinlagerungen", "dicke Beine", "dicke Knöchel", "Schuhe drücken"]
+      }
+    },
+    {
+      "id": "syncope",
+      "label": {"en": "Fainting", "de": "Ohnmacht"},
+      "category": "consciousness",
+      "urgency": "emergency",
+      "note": "Fainting or loss of consciousness in a person with heart disease needs urgent assessment.",
+      "phrases": {
+        "en": ["fainted", "fainting", "passed out", "blacked out", "lost consciousness", "collapsed"],
+        "de": ["ohnmächtig", "Ohnmacht", "in Ohnmacht gefallen", "bewusstlos", "Bewusstsein verloren", "umgekippt", "zusammengebrochen"]
+      }
+    },
+    {
+      "id": "presyncope",
+      "label": {"en": "Dizziness or light-headedness", "de": "Schwindel oder Benommenheit"},
+      "category": "consciousness",
+      "urgency": "routine",
+      "note": "Dizziness can be caused by blood pressure medication. Dizziness with palpitations or chest pain needs urgent assessment.",
+      "phrases": {
+        "en": ["dizzy", "dizziness", "lightheaded", "light-headed", "light headed", "felt like fainting", "about to faint", "nearly fainted"],
+        "de": ["schwindelig", "schwindlig", "Schwindel", "benommen", "fast ohnmächtig", "kurz vor der Ohnmacht"]
+      }
+    },
+    {
+      "id": "palpitations",
+      "label": {"en": "Palpitations", "de": "Herzklopfen oder Herzrasen"},
+      "category": "rhythm",
+      "urgency": "routine",
+      "note": "Palpitations with chest pain, breathlessness or fainting need emergency assessment.",
+      "phrases": {
+        "en": ["palpitations", "heart racing", "heart is racing", "racing heart", "heart pounding", "pounding heart", "heart fluttering", "fluttering in my chest", "skipped beats", "skipping beats", "irregular heartbeat", "heart beating irregularly"],
+        "de": ["Herzrasen", "Herzklopfen", "Herzstolpern", "Herz stolpert", "Herz rast", "unregelmäßiger Herzschlag", "Herz schlägt unregelmäßig", "Herzaussetzer"]
+      }
+    },
+    {
+      "id": "fatigue",
+      "label": {"en": "Fatigue", "de": "Müdigkeit und Erschöpfung"},
+      "category": "general",
+      "urgency": "routine",
+      "note": "Ongoing tiredness and reduced energy are common and worth tracking over time.",
+      "phrases": {
+        "en": ["tired all the time", "always tired", "exhausted", "no energy", "fatigue", "worn out", "wiped out"],
+        "de": ["ständig müde", "immer müde", "erschöpft", "keine Energie", "Erschöpfung", "schlapp", "kraftlos"]
+      }
+    },
+    {
+      "id": "claudication",
+      "label": {"en": "Leg pain when walking", "de": "Beinschmerzen beim Gehen"},
+      "category": "pain",
+      "urgency": "routine",
+      "note": "Calf or leg pain that comes on with walking and eases with rest can be a sign of peripheral artery disease.",
+      "phrases": {
+        "en": ["leg pain when walking", "legs hurt when I walk", "calf pain when walking", "calves hurt when I walk", "cramp in my legs when walking"],
+        "de": ["Beinschmerzen beim Gehen", "Wadenschmerzen beim Gehen", "Schmerzen in den Waden beim Laufen", "Beine tun beim Gehen weh", "Schaufensterkrankheit"]
+      }
+    },
+    {
+      "id": "facial_droop",
+      "label": {"en": "Face drooping on one side", "de": "Hängendes Gesicht auf einer Seite"},
+      "category": "stroke",
+      "urgency": "emergency",
+      "note": "A possible stroke sign (FAST: Face, Arms, Speech, Time).",
+      "phrases": {
+        "en": ["face is drooping", "face drooping", "one side of my face", "mouth is drooping", "drooping mouth", "face looks lopsided"],
+        "de": ["Gesicht hängt", "hängender Mundwinkel", "Mundwinkel hängt", "Gesichtshälfte hängt", "schiefes Gesicht"]
+      }
+    },
+    {
+      "id": "arm_weakness",
+      "label": {"en": "Sudden weakness in one arm", "de": "Plötzliche Schwäche in einem Arm"},
+      "category": "stroke",
+      "urgency": "emergency",
+      "note": "A possible stroke sign (FAST: Face, Arms, Speech, Time).",
+      "phrases": {
+        "en": ["cannot lift my arm", "arm is weak", "arm feels weak", "weakness in one arm", "one arm is numb", "arm went numb"],
+        "de": ["kann den Arm nicht heben", "Arm ist schwach", "Schwäche im Arm", "Arm ist taub", "Arm ist gelähmt", "Lähmung im Arm"]
+      }
+    },
+    {
+      "id": "speech_difficulty",
+      "label": {"en": "Slurred or difficult speech", "de": "Verwaschene oder gestörte Sprache"},
+      "category": "stroke",
+      "urgency": "emergency",
+      "note": "A possible stroke sign (FAST: Face, Arms, Speech, Time).",
+      "phrases": {
+        "en": ["slurred speech", "speech is slurred", "slurring my words", "cannot get my words out", "trouble speaking", "cannot speak properly"],
+        "de": ["verwaschene Sprache", "lalle", "Sprachstörung", "kann nicht richtig sprechen", "finde die Worte nicht", "Probleme beim Sprechen"]
+      }
+    },
+    {
+      "id": "major_bleeding",
+      "label": {"en": "Serious bleeding", "de": "Schwere Blutung"},
+      "category": "bleeding",
+      "urgency": "emergency",
+      "note": "Relevant for people taking anticoagulant or antiplatelet medication.",
+      "phrases": {
+        "en": ["vomiting blood", "vomited blood", "coughing up blood", "coughed up blood", "black stools", "black tarry stool", "bleeding will not stop", "bleeding that will not stop"],
+        "de": ["Blut erbrochen", "Bluterbrechen", "Blut gehustet", "Bluthusten", "schwarzer Stuhl", "Teerstuhl", "Blutung hört nicht auf", "Blutung lässt sich nicht stillen"]
+      }
+    }
+  ]
+}
